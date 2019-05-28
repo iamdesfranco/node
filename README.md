@@ -35,3 +35,25 @@ cd ../
 npx webpack
 ```
 
+### Setting Up webpack.config.js
+
+Get into main folder - Terminal
+```bash
+touch webpack.config.js
+```
+
+Open webpack.config.js
+```javascript
+const path = require("path");
+
+module.exports = {
+    entry: "./src/index.js",
+    output: {
+        filename: "main.js",
+        path: path.resolve(__dirname, "dist")
+    },
+
+}
+```
+
+
