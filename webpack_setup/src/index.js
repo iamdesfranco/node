@@ -1,5 +1,2 @@
-const bro =(greeting) => {
-    return `${greeting}, bro`
-}
-
-console.log(bro('dude'))
+import "./styles/main.scss";
+import "./js/script.js";
